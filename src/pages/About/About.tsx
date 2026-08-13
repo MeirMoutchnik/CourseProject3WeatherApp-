@@ -7,6 +7,9 @@ export default function About() {
             <section className={styles.section}>
                 <h2>Description</h2>
                 <p>This is a weather app that allows you to search for weather information for a city in Israel.</p>
+                <p>The app uses the WeatherAPI to get the weather information.</p>
+                <p>The app is hosted on <a className={styles.vercelLink} href="https://course-project3-weather-ohgxosr11-meir-moutchniks-projects.vercel.app" target="_blank" rel="noopener noreferrer">Vercel</a>.</p>
+                <p>The code can be found on <a className={styles.vercelLink} href="https://github.com/MeirMoutchnik/CourseProject3WeatherApp-/tree/master" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
             </section>
             <section className={styles.section}>
                 <h2>Features</h2>
