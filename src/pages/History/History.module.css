@@ -1,0 +1,64 @@
+.page {
+  padding: 1.5rem 1.6rem;
+  border-radius: var(--radius);
+  background: var(--shine);
+  color: var(--ink);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid rgba(255, 255, 255, 0.65);
+}
+
+.page h1 {
+  color: var(--ink);
+  margin-bottom: 1.1rem;
+}
+
+.empty {
+  padding: 1.5rem 1.6rem;
+  border-radius: var(--radius);
+  background: var(--shine);
+  color: var(--ink-soft);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  font-size: 1.05rem;
+}
+
+.tableWrap {
+  overflow-x: auto;
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--line);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 420px;
+  background: linear-gradient(180deg, #ffffff 0%, #f3f3f3 100%);
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid var(--line);
+  color: var(--ink-soft);
+}
+
+.table th {
+  color: var(--ink);
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  background: linear-gradient(180deg, #1c1c1c 0%, #0f0f0f 100%);
+  color: #f3f3f3;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.12) inset;
+}
+
+.table tbody tr:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.table tbody tr:last-child td {
+  border-bottom: none;
+}

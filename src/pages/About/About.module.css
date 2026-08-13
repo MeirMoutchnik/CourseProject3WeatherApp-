@@ -1,0 +1,37 @@
+.page {
+  padding: 1.5rem 1.6rem;
+  border-radius: var(--radius);
+  background: var(--shine);
+  color: var(--ink);
+  box-shadow: var(--shadow-lg);
+  border: 1px solid rgba(255, 255, 255, 0.65);
+}
+
+.page h1 {
+  color: var(--ink);
+  margin-bottom: 1.25rem;
+}
+
+.page h2 {
+  color: var(--ink);
+  margin-top: 1.35rem;
+  margin-bottom: 0.55rem;
+}
+
+.page p,
+.page li {
+  color: var(--ink-soft);
+}
+
+.section {
+  padding: 1rem 1.1rem;
+  margin-top: 0.75rem;
+  border-radius: var(--radius-sm);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(238, 238, 238, 0.95));
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-sm), 0 1px 0 rgba(255, 255, 255, 0.85) inset;
+}
+
+.section:first-of-type {
+  margin-top: 0;
+}
